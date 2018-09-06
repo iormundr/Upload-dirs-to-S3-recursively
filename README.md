@@ -40,4 +40,4 @@ The script is uploading one or more dirs to S3.
     
     
     
-# P.S. - single file upload is not yet working 
+### P.S. - single file upload is not yet working 
