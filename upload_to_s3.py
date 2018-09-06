@@ -51,7 +51,6 @@ if __name__ == "__main__":
         elif len(sys.argv) >= 2:
                 PATH = sys.argv[1:]
                 return_code = verify_file_exist_for_upload(PATH)
-                print(return_code)
         print
         bucket_list = fetch_buckets_from_s3()
         print
