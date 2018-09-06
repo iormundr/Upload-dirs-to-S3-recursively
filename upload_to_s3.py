@@ -24,7 +24,7 @@ def upload_recursively_to_s3(my_bucket,PATH):
 def verify_file_exist_for_upload(PATH):
         for i in range(len(PATH)):
                 if not os.path.exists(PATH[i]):
-                        print("File or directiry does not exist in the specified")
+                        print("File or directiry does not exist in the specified PATH")
                         exit()
 
 if __name__ == "__main__":
