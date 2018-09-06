@@ -20,7 +20,7 @@ The script is uploading one or more dirs to S3.
     file_upload8.py
     file_upload9.py
     [alex@server1 test_to_upload] cd ..
-    [alex@server1 ~] upload_to_s3.py test_to_upload
+    [alex@server1 ~] upload_to_s3.py test_to_upload perm.sh sharutils.sh
     
     test-2018
     test-my-server1
@@ -38,6 +38,13 @@ The script is uploading one or more dirs to S3.
     ('Uploading  ', 'test_to_upload/file_upload9.py')
     ('Uploading  ', 'test_to_upload/file_upload10.py')
     
+    Printing standalone files
+
+    ('Uploading  ', 'perm.sh')
+    ('Uploading  ', 'sharutils.sh')
+
+    
     
     
   
+### Enjoy!!
