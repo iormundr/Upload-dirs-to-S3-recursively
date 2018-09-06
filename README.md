@@ -1,7 +1,7 @@
 # Upload-dirs-to-S3-recursively
 Upload the entire directory to AWS S3 to one of your buckets
 
-* Now the script can upload multiple inputs (dirs and files)
+* Now the script can upload multiple inputs (dirs and files) simultaneously. 
 
 The script is uploading one or more dirs to S3.
 
