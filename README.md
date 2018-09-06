@@ -36,3 +36,8 @@ The script is uploading one or more dirs to S3.
     ('Uploading  ', 'test_to_upload/file_upload8.py')
     ('Uploading  ', 'test_to_upload/file_upload9.py')
     ('Uploading  ', 'test_to_upload/file_upload10.py')
+    
+    
+    
+    
+# P.S. - single file upload is not yet working 
