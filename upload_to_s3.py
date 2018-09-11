@@ -40,7 +40,7 @@ def verify_file_exist_for_upload(PATH):
 
 def upload_single_files(my_bucket,PATH,isFile):
         print
-        print("Printing standalone files\n")
+        print("Uploading standalone files\n")
         for bool_value in range(len(PATH)):
                 if isFile[bool_value]:
                         s3.Bucket(my_bucket).put_object(Key=PATH[bool_value],Body=PATH[bool_value])
