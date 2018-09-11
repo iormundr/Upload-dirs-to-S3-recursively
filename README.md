@@ -43,8 +43,7 @@ The script is uploading one or more dirs to S3.
     ('Uploading  ', 'perm.sh')
     ('Uploading  ', 'sharutils.sh')
 
-    
-    
-    
+   
+* boto3 module required and aws configure should be predefined 
   
 ### Enjoy!!
