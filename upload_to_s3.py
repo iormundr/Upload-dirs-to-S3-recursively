@@ -16,9 +16,13 @@ def upload_recursively_to_s3(my_bucket,PATH):
         for root,dirs,files in os.walk(PATH):
                 for file in files:
                         full_path = os.path.join(root,file)
-                        with open(full_path, 'rb') as data:
-                                bucket_to_upload.put_object(Key=PATH + "/" + full_path[len(PATH)+1:], Body=data)
-                                print("Uploading  ", os.path.join(root,file))
+                        try:
+                                with open(full_path, 'rb') as data:
+                                        bucket_to_upload.put_object(Key=PATH + "/" + full_path[len(PATH)+1:], Body=data)
+                                        print("Uploading  ", os.path.join(root,file))
+                        except IOError:
+                                print("Did not upload, check permission on file: ",file)
+
 
 def verify_file_exist_for_upload(PATH):
         bool_list = []
