@@ -23,8 +23,8 @@ The script is uploading one or more dirs to S3.
     [alex@server1 ~] upload_to_s3.py test_to_upload perm.sh sharutils.sh
     
     test-2018
-    test-my-server1
-    test-my-server2
+    test-my-bucket1
+    test-my-bucket2
 
     Please select bucket name to upload to: test-my-server2
     ('Uploading  ', 'test_to_upload/file_upload1.py')
